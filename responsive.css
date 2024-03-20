@@ -1,0 +1,116 @@
+/*
+320px
+400px-600px apple er iphn
+768px-992px tab
+1024px -1200px laptop medium device
+1280px-1440px boro device laptop
+1500px-200px+ game development */
+
+
+/* For mobile*/
+@media(min-width:576px) {
+    .container {
+        width:540px;
+        
+    }
+
+}
+
+/*for tablets*/
+@media(min-width:768px){
+    .container {
+        width: 740px;
+
+        }
+
+    .explore-item {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .explore_world {
+        
+        display: flex;
+        
+       
+    }
+
+    .explore-item.hide{
+        width: 50%;
+
+    }
+
+    .tour-main {
+        display: flex;
+        
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        width: 940px;
+    }
+
+    .navbar{
+        display: flex;
+       /* justify-content: center;*/
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;	
+    }
+
+    .navbar ul li {
+        margin: 0 0 0 40px;
+       
+    }
+
+    .banner h1{
+        font-size: 70px;
+    }
+
+ /*upcoming event*/
+    .event-main h2{
+        font-size: 44px;
+    }
+
+    .event {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .event-item {
+        width: 50%;
+        text-align: center;
+    }
+
+    /*explore world*/
+    .explore-item {
+        width: 50%;
+        padding-right: 122px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container{
+        width: 1140px;
+    }
+
+    .event {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 50px;
+    }
+
+    .event-item {
+        width: 500px;
+        text-align: center;
+    }
+}
+
+@media(min-width:1400px) {
+    .container{
+        width: 1340px;
+    }
+}
