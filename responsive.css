@@ -8,6 +8,7 @@
 
 
 /* For mobile*/
+
 @media(min-width:576px) {
     .container {
         width:540px;
